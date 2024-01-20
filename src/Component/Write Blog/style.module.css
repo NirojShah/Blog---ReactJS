@@ -1,0 +1,128 @@
+#writeblog{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#writepage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+#form{
+    width: 90%;
+    height: 560px;
+    background: linear-gradient(145deg, rgb(37, 199, 145) 50%, rgb(189, 255, 235) 10%);
+    border-radius: 15px;
+}
+
+#form>form{
+    width: 100%;
+    height: 560px;
+}
+
+#form>form>div{
+    width: 100%;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    /* padding-left: 150px; */
+}
+
+#form>form>div>h1{
+    color: white;
+}
+
+#form>form>div>input{
+    width: 550px;
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 15px;
+    background-color: rgb(228, 255, 246);
+    border:1px solid rgb(228, 228, 228);
+    transition: 0.3s;
+}
+
+#form>form>div>input:focus{
+    outline: none;
+    border:1px solid rgb(148, 146, 146);
+}
+
+#form>form>div>input:nth-child(4){
+    height: 28px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+}
+
+#form>form>div>input:nth-child(4)::-webkit-file-upload-button{
+    border: 5px solid blue;
+}
+
+#form>form>div>textarea{
+    width: 550px;
+    height: 190px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(228, 255, 246);
+    border:1px solid rgb(228, 228, 228);
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#form>form>div>textarea:focus{
+    outline: none;
+    border:1px solid rgb(148, 146, 146);
+}
+
+#btns>button{
+    width: 175px;
+    height: 40px;
+    border: 3px solid white;
+    color: white;
+    background-color: rgb(37, 199, 145);
+    border-radius: 15px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+#btns>button:hover{
+    background-color: rgb(63, 177, 139);
+}
+#btns>button:focus{
+    background-color: rgb(57, 156, 123);
+}
+
+
+#box{
+    margin-top: 85px;
+    padding: 8px;
+    width: 32%;
+    height: 440px;
+    background-color: rgb(37, 199, 145);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+#select{
+    border-bottom: 5px solid white;
+    width: 100px;
+    position: absolute;
+    top: 76.5px;
+    left: 621px;
+}

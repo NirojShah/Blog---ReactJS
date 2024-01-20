@@ -1,0 +1,27 @@
+#home {
+  width: 100%;
+  height: auto;
+  /* background-color: rgb(174, 243, 255); */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  gap: 20px;
+}
+
+#nav {
+  width: 90%;
+  height: 78px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+#corousal5 {
+  width: 90%;
+  height: 500px;
+  margin-top: 0px;
+  border: 3px solid rgb(37, 199, 145);
+  overflow: hidden;
+  border-radius: 10px;
+}

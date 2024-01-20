@@ -1,0 +1,110 @@
+#landingMain{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav{
+    width: 90%;
+    height: 75px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: rgb(37, 199, 145);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav>img{
+    height: 60px;
+}
+
+#landingDetail{
+    width: 90%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+}
+
+#landingDetail>h1{
+    width: 90%;
+    height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 3px;
+    text-decoration: 2px black underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#landingDetail>p{
+    font-size: 19px;
+}
+
+#routeLinks{
+    width: 90%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+#authorLink{
+    width: 58%;
+    height: 330px;
+    background-color: rgb(37, 199, 145);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(5, 128, 128);
+}
+#authorLink>h1,#userLink>h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#authorLink>p,#userLink>p{
+    width: 90%;
+    height: 200px;
+    color: white;
+    margin: 0px auto;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+
+#authorLink>a>button,#userLink>a>button{
+    width: 180px;
+    height: 40px;
+    border: 3px solid white;
+    color: white;
+    background-color: rgb(37, 199, 145);
+    border-radius: 15px;
+    font-size: 17px;
+    text-transform: capitalize;
+    transition: 0.3s;
+    position: relative;
+    bottom: -19px;
+    left: 37px;
+}
+
+
+#userLink{
+    width: 40%;
+    height: 330px;
+    background-color: rgb(37, 199, 145);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(5, 128, 128);
+}
+
+

@@ -1,0 +1,186 @@
+
+#signup{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SIGN IN BOX  */
+
+#signupbox{
+    width: 68%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#signupbox>h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#signupbox>h1::selection{
+    background-color: none;
+}
+
+#otheracc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#otheracc>p{
+    text-transform: capitalize;
+    color: rgb(71, 71, 71);
+}
+#otheracc>p::selection{
+    background-color: none;
+}
+
+#icons{
+    display: flex;
+    gap: 15px;
+}
+
+
+.icon{
+    width: 25px;
+    height: 25px;
+}
+
+#or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#or>#left{
+    width: 100px;
+    border: 1px dashed rgb(116, 116, 116);
+}
+#or>#right{
+    width: 100px;
+    border: 1px dashed rgb(116, 116, 116);
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#form>input{
+    width: 350px;
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 15px;
+    background-color: rgb(228, 255, 246);
+    border:1px solid rgb(228, 228, 228);
+    transition: 0.3s;
+}
+
+#form>input:focus{
+    outline: none;
+    border:1px solid rgb(148, 146, 146);
+}
+
+#select{
+    width: 350px;
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 15px;
+    background-color: rgb(228, 255, 246);
+    border:1px solid rgb(228, 228, 228);
+    transition: 0.3s;
+}
+#select>option{
+    color: grey;
+}
+
+#form>button{
+    width: 170px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(37, 199, 145);
+    font-size: 18px;
+    color: white;
+    transition: 0.3s;
+}
+
+#form>button:hover{
+    background-color: rgb(63, 177, 139);
+}
+#form>button:focus{
+    background-color: rgb(30, 153, 112);
+    border:1px solid rgb(148, 146, 146);
+}
+
+
+/* Sign in links */
+
+
+#logoImg{
+    width: 300px;
+    height: 85px;
+    position: absolute;
+    top: 10px;
+}
+
+
+#signinbox{
+    width: 38%;
+    height: 100vh;
+    background-color: rgb(37, 199, 145);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#signinbox>h1{
+    color: white;
+}
+
+#signinbox>p{
+    width: 70%;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+#signinbox>p::selection,#signinbox>h1::selection{
+    background-color: none;
+}
+
+#signinbox>a>button{
+    width: 175px;
+    height: 40px;
+    border: 3px solid white;
+    color: white;
+    background-color: rgb(37, 199, 145);
+    border-radius: 15px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+#signinbox>a>button:hover{
+    background-color: rgb(63, 177, 139);
+}
+#signinbox>a>button:focus{
+    background-color: rgb(57, 156, 123);
+}
+
+button:hover{
+    cursor: pointer;
+}
