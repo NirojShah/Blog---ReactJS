@@ -5,8 +5,16 @@ import { FaSearch } from "react-icons/fa";
 import axiosInstance from "../../../Helper/axiosInstance";
 import { Link } from "react-router-dom";
 import Loading from "../../Loading/Loading";
+import { useSpring,animated } from "react-spring";
 
 const Explore = () => {
+
+  const slideInAnimation = useSpring({
+    from: { transform: 'translateX(100px)' },
+    to: { transform: 'translateX(500px)' },
+    config: { duration: 500 },
+  });
+
   const token = localStorage.getItem("token");
   let [searchVal, setSearch] = useState("");
   let [searchRes, setSearchRes] = useState([]);
@@ -87,7 +95,7 @@ const Explore = () => {
               <div id={style.searchRes}>
                 {searchRes.map((val, key) => {
                   return (
-                    <div id={style.card} key={key}>
+                    <animated.div style={slideInAnimation} id={style.card} key={key}>
                       <div id={style.element}>
                         <div id={style.label}>
                           <p>
@@ -115,7 +123,7 @@ const Explore = () => {
                           <button>View</button>
                         </Link>
                       </div>
-                    </div>
+                    </animated.div>
                   );
                 })}
               </div>
