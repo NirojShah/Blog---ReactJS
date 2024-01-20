@@ -47,7 +47,7 @@ const Success = () => {
                 <p>Snippet</p>
                 <p>Author</p>
               </div>
-              <div id={style.values}>
+              <div id={style.valuesS}>
                 <p>{blog.title}</p>
                 <p>{blog.snippet}</p>
                 <p>{blog.author.name}</p>
