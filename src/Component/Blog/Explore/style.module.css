@@ -95,6 +95,13 @@
     flex-direction: column;
     box-shadow: 5px 5px 15px rgb(18, 61, 52);
     border: 3px solid white;
+    /* animation: slide normal 0.5s; */
+}
+
+@keyframes slide {
+    50%{
+        transform: translate(500px);
+    }
 }
 
 #element{
