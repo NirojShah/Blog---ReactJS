@@ -24,10 +24,6 @@
     font-weight: 600;
 }
 
-
-
-
-
 #element{
     width: 100%;
     height: 230px;
@@ -194,7 +190,7 @@ a>button:hover{
     margin-top: 10px;
 }
 
-#values{
+#valuesS{
     display: grid;
     width: 95%;
     grid-template-columns: 1fr 2fr 1fr;
